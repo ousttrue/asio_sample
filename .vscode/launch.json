@@ -40,5 +40,16 @@
             "environment": [],
             "console": "integratedTerminal"
         },
-    ]
+        {
+            "name": "http_get_awaitable",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/prefix/bin/http_get_awaitable.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal"
+        },
+     ]
 }
