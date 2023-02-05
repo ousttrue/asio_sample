@@ -1,0 +1,9 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/builddir",
+        "--header-insertion=never",
+    ],
+    "clangd.fallbackFlags": [
+        // "-std=c++20"
+    ],
+}
