@@ -1,4 +1,3 @@
-asio_dep = dependency('asio')
 executable(
     'http_get',
     [

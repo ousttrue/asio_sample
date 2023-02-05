@@ -1,2 +1,3 @@
 project('asio_samples', 'cpp')
-subdir('samples')
+asio_dep = dependency('asio')
+subdir('examples')

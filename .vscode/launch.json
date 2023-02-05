@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "c++11/futures/daytime_client",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/prefix/bin/daytime_client.exe",
+            "args": [
+                "jp.pool.ntp.org",
+                // "ntp.nict.jp"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal"
+        },
+        {
             "name": "http_get",
             "type": "cppvsdbg",
             "request": "launch",
