@@ -7,9 +7,8 @@
 
 int main() {
   try {
-    asio::io_service io;
-    asio::executor_work_guard<asio::io_context::executor_type> work =
-        asio::make_work_guard(io);
+    asio::io_context io;
+    auto work = asio::make_work_guard(io);
     std::thread thread{[&io] {
       io.run();
       std::cout << "io end" << std::endl;

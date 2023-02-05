@@ -1,4 +1,4 @@
 /prefix/
 /subprojects/*
 !/subprojects/*.wrap
-!/subprojects/packagfiles/
+!/subprojects/packagefiles/

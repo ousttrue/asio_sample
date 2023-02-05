@@ -5,6 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "c++11/timers/time_t_timer",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/prefix/bin/time_t_timer.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal"
+        },
+        {
             "name": "c++11/futures/daytime_client",
             "type": "cppvsdbg",
             "request": "launch",
