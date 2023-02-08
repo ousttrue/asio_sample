@@ -5,6 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "timer_simple",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/prefix/bin/timer_simple.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal"
+        },
+        {
             "name": "c++11/echo/blocking_udp_echo_client",
             "type": "cppvsdbg",
             "request": "launch",
@@ -65,5 +76,5 @@
             "environment": [],
             "console": "integratedTerminal"
         },
-     ]
+    ]
 }
