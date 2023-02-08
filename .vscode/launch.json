@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "c++11/echo/blocking_udp_echo_client",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/prefix/bin/blocking_udp_echo_client.exe",
+            "args": [
+                "127.0.0.1",
+                "54345"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal"
+        },
+        {
             "name": "c++11/timers/time_t_timer",
             "type": "cppvsdbg",
             "request": "launch",
