@@ -1,5 +1,7 @@
 subdir('cpp11')
+subdir('cpp14')
 subdir('http_get')
 subdir('http_get_future')
 subdir('http_get_awaitable')
 subdir('timer_simple')
+subdir('thread_post')

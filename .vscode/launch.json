@@ -5,17 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "timer_simple",
-            "type": "cppvsdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/prefix/bin/timer_simple.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "console": "integratedTerminal"
-        },
-        {
             "name": "c++11/echo/blocking_udp_echo_client",
             "type": "cppvsdbg",
             "request": "launch",
@@ -55,6 +44,31 @@
             "console": "integratedTerminal"
         },
         {
+            "name": "c++14/operatins/composed_1",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/prefix/bin/composed_1.exe",
+            "args": [
+                "jp.pool.ntp.org",
+                // "ntp.nict.jp"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "timer_simple",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/prefix/bin/timer_simple.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal"
+        },
+        {
             "name": "http_get",
             "type": "cppvsdbg",
             "request": "launch",
@@ -70,6 +84,17 @@
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/prefix/bin/http_get_awaitable.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "thread_post",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/prefix/bin/thread_post.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
